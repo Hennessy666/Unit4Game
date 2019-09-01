@@ -1,0 +1,59 @@
+body{
+    background-image: url("backgroundgame.jpg");
+    
+}
+
+.titles {
+    background-color: orange;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.instructionbox {
+    background-color: beige;
+    width: 400px;
+    height: 270px;
+    word-wrap: break-word;
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 15px; 
+
+}
+
+.answerBox {
+    background-color: lawngreen;
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+}
+
+.winLoseBox {
+    background-color: lightskyblue;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    text-indent: 15px;
+}
+
+#currentAnswers {
+    background-color: teal;
+    width: 350px;
+    height: 60px;
+    clear: both;
+}
+
+.crystals {
+    float: left;
+    margin: 10px;
+    height: 100px;
+    width: 90px;
+}
